@@ -3,9 +3,15 @@
         <package android:name="com.google.ar.core" />
     </queries>
 
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CAMERA" />
-
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+<uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+<!-- If you intend to use the microphone -->
+<uses-permission android:name="android.permission.RECORD_AUDIO" />
     <!-- You may need these if doing any screen recording from within the app -->
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
